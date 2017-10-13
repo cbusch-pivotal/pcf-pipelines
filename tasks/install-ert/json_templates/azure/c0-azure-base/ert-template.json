@@ -153,16 +153,6 @@
         "size_mb": "automatic"
       }
     },
-    "ccdb": {
-      "instance_type": {
-        "id": "automatic"
-      },
-      "instances": 0,
-      "elb_names": [],
-      "persistent_disk": {
-        "size_mb": "automatic"
-      }
-    },
     "uaadb": {
       "instance_type": {
         "id": "automatic"

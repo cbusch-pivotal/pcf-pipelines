@@ -52,8 +52,6 @@ db_routing_username: routing
 db_routing_password: $(output db_routing_password)
 db_uaa_username: uaa
 db_uaa_password: $(output db_uaa_password)
-db_ccdb_username: ccdb
-db_ccdb_password: $(output db_ccdb_password)
 db_accountdb_username: accountdb
 db_accountdb_password: $(output db_accountdb_password)
 db_networkpolicyserverdb_username: netpolicyserver

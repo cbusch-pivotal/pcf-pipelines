@@ -62,10 +62,6 @@ output "db_uaa_password" {
   value = "${random_id.db_uaa_password.id}"
 }
 
-output "db_ccdb_password" {
-  value = "${random_id.db_ccdb_password.id}"
-}
-
 output "db_accountdb_password" {
   value = "${random_id.db_accountdb_password.id}"
 }

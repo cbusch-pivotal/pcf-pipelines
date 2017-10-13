@@ -30,8 +30,6 @@ variable "db_uaa_username" {}
 variable "db_uaa_password" {}
 variable "db_app_usage_service_username" {}
 variable "db_app_usage_service_password" {}
-variable "db_ccdb_username" {}
-variable "db_ccdb_password" {}
 variable "db_routing_username" {}
 variable "db_routing_password" {}
 variable "db_accountdb_username" {}

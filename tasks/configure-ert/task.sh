@@ -165,8 +165,6 @@ cf_properties=$(
     --arg db_routing_password "$db_routing_password" \
     --arg db_uaa_username "$db_uaa_username" \
     --arg db_uaa_password "$db_uaa_password" \
-    --arg db_ccdb_username "$db_ccdb_username" \
-    --arg db_ccdb_password "$db_ccdb_password" \
     --arg db_accountdb_username "$db_accountdb_username" \
     --arg db_accountdb_password "$db_accountdb_password" \
     --arg db_networkpolicyserverdb_username "$db_networkpolicyserverdb_username" \
@@ -218,8 +216,6 @@ cf_properties=$(
       ".properties.system_database.external.notifications_password": { "value": { "secret": $db_notifications_password } },
       ".properties.system_database.external.routing_username": { "value": $db_routing_username },
       ".properties.system_database.external.routing_password": { "value": { "secret": $db_routing_password } },
-      ".properties.system_database.external.ccdb_username": { "value": $db_ccdb_username },
-      ".properties.system_database.external.ccdb_password": { "value": { "secret": $db_ccdb_password } },
       ".properties.system_database.external.account_username": { "value": $db_accountdb_username },
       ".properties.system_database.external.account_password": { "value": { "secret": $db_accountdb_password } },
       ".properties.system_database.external.networkpolicyserver_username": { "value": $db_networkpolicyserverdb_username },

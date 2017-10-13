@@ -56,8 +56,6 @@ params:
   db_routing_password:
   db_uaa_username:
   db_uaa_password:
-  db_ccdb_username:
-  db_ccdb_password:
   mysql_monitor_recipient_email:
   MYSQL_BACKUPS:
   MYSQL_BACKUPS_SCP_SERVER:

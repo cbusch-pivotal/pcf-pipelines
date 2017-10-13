@@ -47,8 +47,6 @@ terraform plan \
   -var "db_routing_password=${DB_ROUTING_PASSWORD}" \
   -var "db_uaa_username=${DB_UAA_USERNAME}" \
   -var "db_uaa_password=${DB_UAA_PASSWORD}" \
-  -var "db_ccdb_username=${DB_CCDB_USERNAME}" \
-  -var "db_ccdb_password=${DB_CCDB_PASSWORD}" \
   -var "db_accountdb_username=${DB_ACCOUNTDB_USERNAME}" \
   -var "db_accountdb_password=${DB_ACCOUNTDB_PASSWORD}" \
   -var "db_networkpolicyserverdb_username=${DB_NETWORKPOLICYSERVERDB_USERNAME}" \

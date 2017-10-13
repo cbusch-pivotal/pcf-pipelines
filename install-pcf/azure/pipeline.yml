@@ -440,7 +440,6 @@ jobs:
       MYSQL_PROXY_INSTANCES: {{mysql_proxy_instances}}
       MYSQL_INSTANCES: {{mysql_instances}}
       BACKUP_PREPARE_INSTANCES: {{backup_prepare_instances}}
-      CCDB_INSTANCES: {{ccdb_instances}}
       UAADB_INSTANCES: {{uaadb_instances}}
       UAA_INSTANCES: {{uaa_instances}}
       CLOUD_CONTROLLER_INSTANCES: {{cloud_controller_instances}}

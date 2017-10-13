@@ -44,18 +44,6 @@ resource "google_sql_database" "uaa" {
   instance = "${google_sql_database_instance.master.name}"
 }
 
-resource "google_sql_database" "ccdb" {
-  name       = "ccdb"
-  depends_on = ["google_sql_database.uaa"]
-  instance   = "${google_sql_database_instance.master.name}"
-}
-
-resource "google_sql_database" "notifications" {
-  name       = "notifications"
-  depends_on = ["google_sql_database.ccdb"]
-  instance   = "${google_sql_database_instance.master.name}"
-}
-
 resource "google_sql_database" "autoscale" {
   name       = "autoscale"
   depends_on = ["google_sql_database.notifications"]
@@ -154,22 +142,6 @@ resource "google_sql_user" "app_usage_service" {
   instance   = "${google_sql_database_instance.master.name}"
   host       = "%"
   depends_on = ["google_sql_user.uaa"]
-}
-
-resource "google_sql_user" "ccdb" {
-  name       = "${var.db_ccdb_username}"
-  password   = "${var.db_ccdb_password}"
-  instance   = "${google_sql_database_instance.master.name}"
-  host       = "%"
-  depends_on = ["google_sql_user.app_usage_service"]
-}
-
-resource "google_sql_user" "routing" {
-  name       = "${var.db_routing_username}"
-  password   = "${var.db_routing_password}"
-  instance   = "${google_sql_database_instance.master.name}"
-  host       = "%"
-  depends_on = ["google_sql_user.ccdb"]
 }
 
 resource "google_sql_user" "account" {

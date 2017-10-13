@@ -91,8 +91,6 @@ db_uaa_username: CHANGEME
 db_uaa_password: CHANGEME
 db_app_usage_service_username: CHANGEME
 db_app_usage_service_password: CHANGEME
-db_ccdb_username: CHANGEME
-db_ccdb_password: CHANGEME
 db_routing_username: CHANGEME
 db_routing_password: CHANGEME
 

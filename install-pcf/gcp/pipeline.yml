@@ -130,8 +130,6 @@ jobs:
       DB_ROUTING_PASSWORD: {{db_routing_password}}
       DB_UAA_USERNAME: {{db_uaa_username}}
       DB_UAA_PASSWORD: {{db_uaa_password}}
-      DB_CCDB_USERNAME: {{db_ccdb_username}}
-      DB_CCDB_PASSWORD: {{db_ccdb_password}}
       DB_ACCOUNTDB_USERNAME: {{db_accountdb_username}}
       DB_ACCOUNTDB_PASSWORD: {{db_accountdb_password}}
       DB_NETWORKPOLICYSERVERDB_USERNAME: {{db_networkpolicyserverdb_username}}
@@ -262,8 +260,6 @@ jobs:
       db_uaa_password: {{db_uaa_password}}
       db_app_usage_service_username: {{db_app_usage_service_username}}
       db_app_usage_service_password: {{db_app_usage_service_password}}
-      db_ccdb_username: {{db_ccdb_username}}
-      db_ccdb_password: {{db_ccdb_password}}
       db_routing_username: {{db_routing_username}}
       db_routing_password: {{db_routing_password}}
       db_accountdb_username: {{db_accountdb_username}}

@@ -46,8 +46,6 @@ terraform destroy -force \
   -var "db_routing_password=dontcare" \
   -var "db_uaa_username=dontcare" \
   -var "db_uaa_password=dontcare" \
-  -var "db_ccdb_username=dontcare" \
-  -var "db_ccdb_password=dontcare" \
   -var "db_accountdb_username=dontcare" \
   -var "db_accountdb_password=dontcare" \
   -var "db_networkpolicyserverdb_username=dontcare" \

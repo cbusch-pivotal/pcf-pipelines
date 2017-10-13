@@ -30,10 +30,6 @@ resource "random_id" "db_uaa_password" {
   byte_length = 16
 }
 
-resource "random_id" "db_ccdb_password" {
-  byte_length = 16
-}
-
 resource "random_id" "db_accountdb_password" {
   byte_length = 16
 }
